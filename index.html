@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/output.css" />
+    <script src="script.js" defer></script>
+
+    <!-- Swiper JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"
+      defer
+    ></script>
+    <title>Manage landing oage</title>
+  </head>
+  <body class="no-scrollbar">
+    <!-- header -->
+    <header class="fixed top-0 w-full shadow-md bg-white z-50">
+      <div
+        class="container mx-auto flex justify-between items-center px-7 py-8 md:py-10 overflow-hidden"
+      >
+        <!-- logo -->
+        <a href="#">
+          <img src="images/logo.svg" alt="logo" />
+        </a>
+        <!-- nav -->
+        <nav
+          class="block fixed top-0 active w-64 shadow-md bg-white shadow-[#202124] h-full md:flex transition-[right] duration-500 md:static md:bg-transparent md:w-auto md:h-auto md:shadow-none md:shadow-transparent"
+          id="nav"
+        >
+          <!-- menu -->
+          <div class="flex justify-end my-6 mr-8 md:hidden">
+            <img src="images/icon-close.svg" alt="" id="close-nav" />
+          </div>
+          <ul class="ml-8 space-y-5 md:flex md:space-x-7 md:ml-0 md:space-y-0">
+            <li>
+              <a href="#" class="hover:text-darkGrayishBlue" id="link"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-darkGrayishBlue" id="link"
+                >Product</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-darkGrayishBlue" id="link"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-darkGrayishBlue" id="link"
+                >Career</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-darkGrayishBlue" id="link"
+                >Community</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <!-- get started -->
+        <div class="hidden md:block">
+          <a
+            href="#"
+            class="text-white rounded-full bg-brightRed py-2 px-4 shadow-sm hover:shadow-lg hover:bg-brightRedLight"
+            >Get Started</a
+          >
+        </div>
+
+        <!-- menu -->
+        <div class="block md:hidden">
+          <img src="images/icon-hamburger.svg" id="open-nav" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <!-- container -->
+      <div
+        class="container mt-[100px] mx-auto px-8 flex flex-col-reverse items-center md:flex-row"
+      >
+        <!-- Left Item -->
+        <div class="flex flex-col space-y-10 py-3 md:basis-1/2">
+          <h1
+            class="text-4xl font-bold text-center max-w-md text-darkBlue md:text-5xl md:text-left"
+          >
+            Bring everyone together to build better products.
+          </h1>
+          <p
+            class="max-w-sm text-center mx-auto text-darkGrayishBlue md:text-left md:mx-0"
+          >
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+          <div class="flex justify-center md:justify-start">
+            <a
+              href="#"
+              class="text-white rounded-full bg-brightRed py-2 px-4 shadow-sm hover:shadow-lg hover:bg-brightRedLight"
+              >Get Started</a
+            >
+          </div>
+        </div>
+
+        <!-- right item -->
+        <div class="md:basis-1/2 pt-5">
+          <img src="images/illustration-intro.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- feature -->
+    <section id="features">
+      <div
+        class="container px-8 space-y-10 mx-auto mt-10 flex flex-col md:flex-row md:space-y-0"
+      >
+        <!-- left item -->
+        <div class="md:basis-1/2 flex flex-col">
+          <h1
+            class="text-darkBlue text-center text-4xl mb-8 font-bold md:text-left md:max-w-md"
+          >
+            What's different about manage?
+          </h1>
+          <p
+            class="max-w-md text-darkGrayishBlue mx-auto md:text-left md:mx-0 md:max-w-sm"
+          >
+            Manage provides all functionality your team needs, without the
+            complexity. Out software is tailor-made for modern digital product
+            teams.
+          </p>
+        </div>
+
+        <!-- right item -->
+        <div
+          class="flex w-10/12 mx-auto flex-col items-center justify-center space-y-10 md:basis-1/2 md:w-auto md:mx-0"
+        >
+          <!-- item 1 -->
+          <div
+            class="flex flex-col space-x-4 items-start md:flex-row md:space-x-5"
+          >
+            <!-- heading -->
+            <div
+              class="flex bg-brightRedSupLight pr-3 w-full items-center space-x-5 rounded-full mb-4 md:bg-transparent md:w-auto"
+            >
+              <span class="bg-brightRed py-1 px-5 rounded-full text-white"
+                >01</span
+              >
+              <h3 class="md:hidden">Track company-wide progress</h3>
+            </div>
+            <!-- content -->
+            <div>
+              <h3 class="hidden font-bold mb-4 text-darkBlue md:block">
+                Track company-wide progress
+              </h3>
+              <p class="text-darkGrayishBlue">
+                See how day-to-day tasks fits into the wider vision. Go from
+                tracking progress at the milestone level all the way done to the
+                smallest of details. Never lose sight of thr bigger picture
+                again
+              </p>
+            </div>
+          </div>
+
+          <!-- item 2-->
+          <div
+            class="flex flex-col space-x-4 items-start md:flex-row md:space-x-5"
+          >
+            <!-- heading -->
+            <div
+              class="flex bg-brightRedSupLight pr-3 w-full items-center space-x-5 rounded-full mb-4 md:bg-transparent md:w-auto"
+            >
+              <span class="bg-brightRed py-1 px-5 rounded-full text-white"
+                >02</span
+              >
+              <h3 class="md:hidden">Advanced built-in reports</h3>
+            </div>
+            <!-- content -->
+            <div>
+              <h3 class="hidden font-bold mb-4 text-darkBlue md:block">
+                Advanced built-in reports
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Set interval delivery estimates and track progress toward
+                company goals. Our customisable dashboard helps you build out
+                the reports you need to keep key stakeholders.
+              </p>
+            </div>
+          </div>
+
+          <!-- item 3 -->
+          <div
+            class="flex flex-col space-x-4 items-start md:flex-row md:space-x-5"
+          >
+            <!-- heading -->
+            <div
+              class="flex bg-brightRedSupLight w-full items-center space-x-5 rounded-full mb-4 md:bg-transparent md:w-auto pr-3"
+            >
+              <span class="bg-brightRed py-1 px-5 rounded-full text-white"
+                >03</span
+              >
+              <h3 class="md:hidden">Everything you need in one place</h3>
+            </div>
+            <!-- content -->
+            <div>
+              <h3 class="hidden font-bold mb-4 text-darkBlue md:block">
+                Everything you need in one place
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Stop jumping from one service to another to communicate, store
+                files, track tasks and share documents. Manage offers and
+                all-in-one team productivity solution.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials">
+      <div class="max-w-[1440px] mx-auto p-5 mt-10">
+        <h1 class="text-3xl font-bold text-darkBlue text-center">
+          What they've said
+        </h1>
+        <!-- testimonial container -->
+        <div class="swiper mySwiper mt-5 w-full h-[20rem] py-14 px-5">
+          <div class="swiper-wrapper">
+            <!-- item one -->
+            <div
+              class="swiper-slide bg-gray-100 p-2 flex flex-col items-center space-y-4 shadow-sm rounded-md"
+            >
+              <img src="images/avatar-anisha.png" class="w-14 -mt-10" alt="" />
+              <h3 class="font-bold text-veryDarkBlue">Anisha Li</h3>
+              <p class="text-darkGrayishBlue text-center">
+                "Manage has supercharged our team's workflow. The ability to
+                maintain on larger milestones at all times keeps everyone
+                motivated."
+              </p>
+            </div>
+            <!-- item two -->
+            <div
+              class="swiper-slide bg-gray-100 p-2 flex flex-col items-center space-y-4 shadow-sm rounded-md"
+            >
+              <img src="images/avatar-ali.png" class="w-14 -mt-10" alt="" />
+              <h3 class="font-bold text-veryDarkBlue">Ali Bravo</h3>
+              <p class="text-darkGrayishBlue text-center">
+                "we have been able to cancel so many other subscriptions since
+                using Manage. There is no more confusion and everyone is much
+                more focused."
+              </p>
+            </div>
+            <!-- item three -->
+            <div
+              class="swiper-slide bg-gray-100 p-2 flex flex-col items-center space-y-4 shadow-sm rounded-md"
+            >
+              <img src="images/avatar-richard.png" class="w-14 -mt-10" alt="" />
+              <h3 class="font-bold text-veryDarkBlue">Richard Watts</h3>
+              <p class="text-darkGrayishBlue text-center">
+                "Manage allows us to provide structure and process. It keeps us
+                organized and focused. I can't stop recommending them to
+                everyone i talk to!."
+              </p>
+            </div>
+            <!-- item 4 -->
+            <div
+              class="swiper-slide bg-gray-100 p-3 flex flex-col items-center space-y-4 shadow-sm rounded-md"
+            >
+              <img src="images/avatar-shanai.png" class="w-14 -mt-10" alt="" />
+              <h3 class="font-bold text-veryDarkBlue">Shanai Gough</h3>
+              <p class="text-darkGrayishBlue text-center">
+                "Their software allows us to track, manage and collaborate on
+                our project from anywhere. It keeps the whole team in-sync
+                without being intrusive."
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- simplify -->
+    <section id="simplify" class="bg-brightRed py-10">
+      <div
+        class="container mx-auto flex flex-col justify-center items-center space-y-10 md:flex-row md:justify-around"
+      >
+        <!-- left item -->
+        <div class="w-full flex md:basis-2/4">
+          <p
+            class="max-w-md text-2xl text-center mx-auto text-white font-bold px-5 md:text-3xl md:text-left md:mx-0"
+          >
+            Simplify how your team works today.
+          </p>
+        </div>
+        <div class="w-full flex items-center justify-center md:basis-1/4">
+          <a
+            href="#"
+            class="text-brightRed rounded-full bg-white py-2 px-4 shadow-sm hover:shadow-sm hover:bg-gray-300"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="text-white bg-[#202124]">
+      <div class="container mx-auto pt-16 pb-10 px-8">
+        <!-- footer-body -->
+        <div class="flex flex-col-reverse space-x-5 md:flex-row">
+          <!-- item one -->
+          <div
+            class="flex flex-col-reverse items-center space-y-14 md:flex-col md:basis-1/4 md:items-start"
+          >
+            <img
+              src="images/logo.svg"
+              class="w-[180px] mt-8 md:mt-0"
+              alt="logo"
+            />
+            <!-- icons -->
+            <ul class="flex space-x-8 md:space-x-3">
+              <li>
+                <a href="#"><img src="images/icon-facebook.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/icon-youtube.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/icon-twitter.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/icon-pinterest.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/icon-instagram.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <!-- item two -->
+          <div class="flex items-start justify-around md:basis-2/4">
+            <!-- left item -->
+            <ul class="flex flex-col space-y-3 w-28">
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-darkGrayishBlue duration-300 hover:pl-2"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-darkGrayishBlue duration-300 hover:pl-2"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-darkGrayishBlue duration-300 hover:pl-2"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-darkGrayishBlue duration-300 hover:pl-2"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+            <!-- right item -->
+            <ul class="flex flex-col space-y-3 w-28">
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-darkGrayishBlue duration-300 hover:pl-2"
+                  >Careers</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-darkGrayishBlue duration-300 hover:pl-2"
+                  >Community</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-darkGrayishBlue duration-300 hover:pl-2"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- item three -->
+          <div class="mb-10 md:basis-1/4 md:mb-0">
+            <!-- wrapper -->
+            <div class="flex w-full justify-center space-x-2">
+              <input
+                type="email"
+                class="px-3 rounded-full w-8/12 text-black placeholder:text-[12px] focus:outline-none active:outline-none"
+                placeholder="Updates in your inbox....."
+              />
+              <button class="py-2 px-7 bg-brightRed rounded-full">G0</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
