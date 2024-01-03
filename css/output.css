@@ -791,6 +791,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-red-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 242 242 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -964,31 +974,30 @@ video {
 
 * {
   scroll-behavior: smooth;
-  border: 1px solid red;
 }
 
-body{
+body {
   background-image: url('../images/bg-tablet-pattern.svg');
   background-repeat: no-repeat;
   background-size: 800px;
   background-position: 100% -20%;
 }
 
-#simplify{
+#simplify {
   background-image: url('../images/bg-simplify-section-desktop.svg');
   background-repeat: no-repeat;
 }
 
-#nav{
+#nav {
   right: -16rem;
 }
 
-#nav.active{
+#nav.active {
   right: 0;
 }
 
 @media (max-width: 576px) {
-  body{
+  body {
     background-position: 50px -98px;
     background-size: 500px;
   }
@@ -999,11 +1008,11 @@ body{
   background-color: hsl(12 88% 59% / var(--tw-bg-opacity));
 }
 
-.no-scrollbar::-webkit-scrollbar{
+.no-scrollbar::-webkit-scrollbar {
   display: none;
 }
 
-.no-scrollbar{
+.no-scrollbar {
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -1211,4 +1220,3 @@ body{
     --tw-shadow: var(--tw-shadow-colored);
   }
 }
-
